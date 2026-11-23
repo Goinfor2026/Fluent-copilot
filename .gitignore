@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 用户配置与密钥（config.example.toml 是模板）
+config.toml
+glmapi.txt
+ragflow_password.txt
+
+# 运行产物
+logs/
+vector_store/
+*.trn
+cleanup-fluent-*.bat
+fluenterror.log
+cortexerror.log
+
+# 前端
+frontend/node_modules/
+frontend/dist/
+
+# IDE / 系统
+.idea/
+.DS_Store
+
+# registry 缓存与脚本产物
+frontend/.registry-cache/
+
+# 大体积非代码资产（教程原件/case 文件/PDF 不进 git）
+test/
+Ansys_Fluent_Tutorial_Guide_2026_R1.pdf
+*.cas.h5
+*.msh.h5
+copilot_lib/raw/inbox/*.pdf
+
+# Obsidian 工作区状态
+copilot_lib/.obsidian/workspace.json
+
+# ZCode 会话目录
+.zcode/
+
+# 对话历史数据
+data/
+
+# 打包产物(build/ 下的脚本与 spec 保留)
+build/dist/
+build/work/
+build/*.zip
+build/inno/
+build/*.exe
+build/exe-test.log
